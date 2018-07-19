@@ -31,6 +31,9 @@
           <li class="nav-item">
             <a class="nav-link" href="#">Discord</a>
           </li>
+          <li class="nav-item" style="right: 0px;position: absolute;">
+            <a class="nav-link" href="#">PLACE_HOLDER</a>
+          </li>
         </ul>
       </div>
     </nav>
