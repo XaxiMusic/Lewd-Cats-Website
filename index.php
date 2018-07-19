@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <title>Lewd Cats | Home</title>
     <link rel="stylesheet" href="https://bootswatch.com/4/slate/bootstrap.css">
+    <link rel="icon" href="/images/logo.png">
   </head>
   <body>
 
