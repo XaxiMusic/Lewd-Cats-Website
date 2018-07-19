@@ -8,6 +8,7 @@
     <link rel="icon" href="/images/logo.png">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="http://localhost:35729/livereload.js"></script>
     <style>
 body {font-family: Arial, Helvetica, sans-serif;}
 
@@ -113,7 +114,7 @@ body {font-family: Arial, Helvetica, sans-serif;}
   btn.onclick = function() {
       modal.style.display = "block";
   }
-
+modal.style.display = "block";
   // When the user clicks on <span> (x), close the modal
   span.onclick = function() {
       modal.style.display = "none";
