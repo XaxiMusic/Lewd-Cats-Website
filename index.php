@@ -23,10 +23,10 @@
             <a class="nav-link" href="#">Leaders</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">About</a>
+            <a class="nav-link" href="#">About us</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Join</a>
+            <a class="nav-link" href="#">Join us</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">Discord</a>
