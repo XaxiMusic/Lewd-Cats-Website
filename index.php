@@ -4,11 +4,12 @@
     <meta charset="utf-8">
     <title>Lewd Cats | Home</title>
     <link rel="stylesheet" href="https://bootswatch.com/4/slate/bootstrap.css">
+    <link href="https://fonts.googleapis.com/css?family=Orbitron:700" rel="stylesheet">
     <link rel="icon" href="/images/logo.png">
   </head>
   <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-      <a class="navbar-brand" href="#">Navbar</a>
+      <a class="navbar-brand" style="font-family: 'Orbitron', sans-serif;" href="#">Lewd Cats</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
