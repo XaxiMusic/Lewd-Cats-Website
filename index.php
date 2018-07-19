@@ -83,22 +83,37 @@ body {font-family: Arial, Helvetica, sans-serif;}
     </nav>
   <div id="myModal" class="modal">
     <div class="modal-dialog" role="document">
-      <div class="modal-content" style="background-color: #32383e;">
+      <div class="modal-content" style="background-color: #32383e;width: 500px;">
         <div class="modal-header">
-          <h5 class="modal-title">Golden_Blade's Profile</h5>
+          <h5 class="modal-title">%PLACE_HOLDER_NAME%'s Profile</h5>
           <button type="button" class="close" data-dismiss="modal" aria-label="Close">
             <span class="close" aria-hidden="true">&times;</span>
           </button>
         </div>
         <div class="modal-body">
-          <p>Avatar?</p>
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-primary">Save changes</button>
+          <div class="row">
+              <div class="col-sm-6">
+                <div class="card text-white bg-primary mb-3" style="width: 200px;">
+                  <div class="card-header">Avatar</div>
+                  <div class="card-body">
+                    <img style="width:100%;" src="https://cdn.discordapp.com/avatars/215270660195352577/a_05e34c671f68689af92bad48d734e865.png" alt="%PLACE_HOLDER_NAME%'s Avatar">
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6">
+                <div class="card text-white bg-primary mb-3" style="width: 200px;">
+                  <div class="card-header">Details</div>
+                  <div class="card-body">
+                    <h4 class="card-title">Username</h4>
+                    <p class="card-text">%PLACE_HOLDER_NAME%</p>
+                    <h4 class="card-title">Rank</h4>
+                    <p class="card-text">%PLACE_HOLDER_RANK%</p>
+                  </div>
+                </div>
+              </div>
+          </div>
         </div>
       </div>
-    </div>
-  </div>
   <script>
   // Get the modal
   var modal = document.getElementById('myModal');
