@@ -8,7 +8,6 @@
     <link rel="icon" href="/images/logo.png">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    <script src="http://localhost:35729/livereload.js"></script>
     <style>
 body {font-family: Arial, Helvetica, sans-serif;}
 
@@ -86,13 +85,13 @@ body {font-family: Arial, Helvetica, sans-serif;}
     <div class="modal-dialog" role="document">
       <div class="modal-content" style="background-color: #32383e;">
         <div class="modal-header">
-          <h5 class="modal-title">%PLACE_NAME%'s Profile</h5>
+          <h5 class="modal-title">Golden_Blade's Profile</h5>
           <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-            <span class="close" aria-hidden="true">&times;
+            <span class="close" aria-hidden="true">&times;</span>
           </button>
         </div>
         <div class="modal-body">
-          <p>All your shit here :D</p>
+          <p>Avatar?</p>
         </div>
         <div class="modal-footer">
           <button type="button" class="btn btn-primary">Save changes</button>
