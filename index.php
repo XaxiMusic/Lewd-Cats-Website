@@ -91,27 +91,17 @@ body {font-family: Arial, Helvetica, sans-serif;}
           </button>
         </div>
         <div class="modal-body">
-          <div class="row">
-              <div class="col-sm-6">
-                <div class="card text-white bg-primary mb-3" style="width: 200px;">
-                  <div class="card-header">Avatar</div>
-                  <div class="card-body">
-                    <img style="width:100%;" src="https://cdn.discordapp.com/avatars/215270660195352577/a_05e34c671f68689af92bad48d734e865.png" alt="%PLACE_HOLDER_NAME%'s Avatar">
-                  </div>
-                </div>
-              </div>
-              <div class="col-sm-6">
-                <div class="card text-white bg-primary mb-3" style="width: 200px;">
-                  <div class="card-header">Details</div>
-                  <div class="card-body">
-                    <h4 class="card-title">Username</h4>
-                    <p class="card-text">%PLACE_HOLDER_NAME%</p>
-                    <h4 class="card-title">Rank</h4>
-                    <p class="card-text">%PLACE_HOLDER_RANK%</p>
-                  </div>
-                </div>
-              </div>
-          </div>
+          <ul class="nav nav-pills flex-column">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Profile</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Guild Stats</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#">Admin Panel</a>
+            </li>
+          </ul>
         </div>
       </div>
   <script>
@@ -128,7 +118,7 @@ body {font-family: Arial, Helvetica, sans-serif;}
   btn.onclick = function() {
       modal.style.display = "block";
   }
-modal.style.display = "block";
+
   // When the user clicks on <span> (x), close the modal
   span.onclick = function() {
       modal.style.display = "none";
