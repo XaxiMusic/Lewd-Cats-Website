@@ -106,8 +106,14 @@ body {font-family: Arial, Helvetica, sans-serif;}
       </div>
     </div>
   </div>
-  <div class="mainPage" style="padding-top:5%;margin: 0 auto;width:70%;">
-    <h3>%icon% Members 7/10</h3>
+  <div class="alerts" style="padding-top:2%;margin: 0 auto;width:70%;z-index: 200;">
+    <div class="alert alert-dismissible alert-light">
+      <button type="button" class="close" data-dismiss="alert">&times;</button>
+      This website is still in development if you have any questions please ask in our <a href="https://discord.gg/pFrh4NT">DISCORD</a>
+    </div>
+  </div>
+  <div class="mainPage" style="padding-top:2%;margin: 0 auto;width:70%;">
+    <h3>%icon50% Members 7/10</h3>
     <div class="progress">
       <div class="progress-bar bg-info progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 70%"></div>
     </div>
