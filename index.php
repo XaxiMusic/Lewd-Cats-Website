@@ -106,13 +106,13 @@ body {font-family: Arial, Helvetica, sans-serif;}
       </div>
     </div>
   </div>
-  <div class="Mai">
-
+  <div class="mainPage" style="padding-top:5%;margin: 0 auto;width:70%;">
+    <h3 id="progress-animated">Members 7/10</h3>
+    <div class="progress">
+      <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 70%"></div>
+    </div>
   </div>
-      <h3 id="progress-animated">Members 7/10</h3>
-      <div class="progress">
-        <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 70%"></div>
-      </div>
+
 
   <script>
   // Get the modal
